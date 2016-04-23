@@ -9,7 +9,7 @@ describe "A robot double" do
 end
 
 describe "Creating an instance of a robot" do
-  it "returns an insance of a Robot" do
+  it "returns an instance of a Robot" do
     tobor = Robot.new('Twiki', 'ambuquad')
     expect(tobor).to be_a Robot
   end
